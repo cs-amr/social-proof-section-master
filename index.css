@@ -1,0 +1,152 @@
+.attribution {
+    position: absolute;
+    left: 50%;
+    bottom:0%;
+    font-size: 20px;
+    text-align: center;
+}
+.attribution a {
+    color: hsl(228, 45%, 44%);
+  }
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-size: 15px;
+    background-color: hsl(0, 0%, 100%);
+    font-family: "League Spartan", sans-serif;
+}
+.container {
+    position: absolute;
+    top: 30%;
+    left:50%;
+    transform: translate(-50%,-50% );
+    width: 1111px;
+    margin: 165px 120px 165px;
+    -webkit-transform: translate(-50%,-50% );
+    -moz-transform: translate(-50%,-50% );
+    -ms-transform: translate(-50%,-50% );
+    -o-transform: translate(-50%,-50% );
+}
+.container .info h3 {
+    font-weight: 700;
+    font-size: 50px;
+    width:325px;
+    color: hsl(300, 43%, 22%);
+    margin-bottom: 30px;
+}
+.container .info p {
+    font-size: 16px;
+    font-weight: 300;
+    color: hsl(303, 10%, 53%);
+    width: 410px;
+    overflow-wrap:normal;
+    font-size: 17px;
+}
+.content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 80px;
+}
+@media(max-width:380px){
+    
+    .content{
+        display: flex;
+        flex-direction: column;
+    }
+}
+.reviews .review {
+    display: flex;  
+    justify-content: space-evenly;
+    align-items: center;
+    width: 445px;
+    height: 55px;
+    margin-top: 15px;
+    color: hsl(300, 43%, 22%);
+    font-weight: 700;
+    background-color: hsl(300, 24%, 96%);
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+
+.reviews .review:first-child {
+    margin-left: -95px;
+}
+.reviews .review:nth-child(2) {
+    margin-left: -48px;
+}
+
+@media(max-width:380px){
+    .reviews .review {
+    display: flex;
+    flex-direction: column;
+    width: 325px;
+    height: 90px;
+    margin-left: 0;    
+}
+}
+.quotes{
+    display: flex;
+    column-gap:20px ;
+    justify-content: space-between;
+}
+
+.quotes .quote:nth-child(2) {
+    margin-top: 15px;
+
+}
+.quotes .quote:last-child {
+    margin-top: 30px;
+
+}
+.quotes .quote {
+    padding: 40px 30px;
+    border-radius: 10px;
+    width: 325px;
+    height: 240px;
+    color:white;
+    background-color:  hsl(300, 43%, 22%);
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+@media (max-width:376px) {
+    .quotes .quote{
+        display: flex;
+        flex-direction: column;
+    }
+    
+}
+
+.quotes .quote h4 {
+    color: hsl(333, 80%, 67%)
+
+}
+.quotes .quote p{
+    font-weight: 500;
+    font-size: 17px;
+}
+.quotes .quote img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.quotes .quote .quote-head{
+    margin-bottom: 10px;
+    display: flex;
+}
+.quotes .quote .text{
+    margin: 20px 20px; 
+}
